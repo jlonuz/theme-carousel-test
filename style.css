@@ -1,0 +1,76 @@
+.bg-slide-1 {
+	position: relative;
+	/*background-image: url(https://placeimg.com/1000/500/any);*/
+	background-image: url(img/ptacuri.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-slide-2 {
+	position: relative;
+/*	background-image: url(https://placeimg.com/1000/500/arch);*/
+	background-image: url(img/playagrande.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-slide-3 {
+	position: relative;
+	/*background-image: url(https://placeimg.com/1000/500/nature);*/
+	background-image: url(img/city.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-slide-4 {
+	position: relative;
+	/*background-image: url(https://placeimg.com/1000/500/nature);*/
+	background-image: url(img/llendo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.paint1 {
+	background-image: url(https://placeimg.com/500/500/nature);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+.paint2 {
+	background-image: url(https://placeimg.com/500/500/tech);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+.paint3 {
+	background-image: url(https://placeimg.com/500/500/nature);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+}
+
+.circle3 {
+	background-image: url(https://placeimg.com/500/500/nature);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 140px;
+	height: 140px;
+}
+
+@media (max-width: 767px) {
+  .paint1, .paint2, .paint3 {
+    height: 330px;
+  }
+}
